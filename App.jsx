@@ -1,15 +1,15 @@
 import { Routes, Route } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
-import ProtectedRoute from "./components/ProtectedRoute";
+import Navbar from "./Navbar";
+import ProtectedRoute from "./ProtectedRoute";
 
-import Home from "./pages/Home";
-import Shop from "./pages/Shop";
-import Product from "./pages/Product";
-import Cart from "./pages/Cart";
-import Contact from "./pages/Contact";
-import Login from "./pages/Login";
-import Checkout from "./pages/Checkout";
+import Home from "./Home";
+import Shop from "./Shop";
+import Product from "./Product";
+import Cart from "./Cart";
+import Contact from "./Contact";
+import Login from "./Login";
+import Checkout from "./Checkout";
 
 function App() {
   return (
