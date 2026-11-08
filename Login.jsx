@@ -1,5 +1,5 @@
 import { useNavigate, useLocation } from "react-router-dom";
-import { useCart } from "../context/CartContext";
+import { useCart } from "./CartContext";
 
 function Login() {
   const { setIsLoggedIn } = useCart();
