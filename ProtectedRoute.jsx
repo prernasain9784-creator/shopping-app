@@ -1,5 +1,5 @@
 import { Navigate, useLocation } from "react-router-dom";
-import { useCart } from "../context/CartContext";
+import { useCart } from "./CartContext";
 
 function ProtectedRoute({ children }) {
   const { isLoggedIn } = useCart();
